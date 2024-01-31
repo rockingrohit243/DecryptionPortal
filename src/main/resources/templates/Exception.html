@@ -14,7 +14,6 @@
             justify-content: center;
             height: 100vh;
         }
-
         .container {
             background-color: #fff;
             padding: 20px;
@@ -25,11 +24,9 @@
             width: 100%;
             zoom: 1.5; /* Adjust the zoom factor as needed */
         }
-
         h1 {
             color: #333;
         }
-
         #errorMessage {
             margin-top: 20px;
             font-size: 18px;
@@ -38,11 +35,9 @@
     </style>
 </head>
 <body>
-
 <div class="container">
     <h1>Bad Request</h1>
     <p id="errorMessage" th:text="${exception}"></p>
 </div>
-
 </body>
 </html>
